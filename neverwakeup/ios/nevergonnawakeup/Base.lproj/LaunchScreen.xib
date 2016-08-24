@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Please wait a moment while we are preparing the store" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="qMQ-L7-EcA">
+                    <rect key="frame" x="29" y="191" width="422" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="KYl-x1-WRq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="DamascusLight" family="Damascus" pointSize="14"/>
+                    <color key="textColor" red="0.25967359293193715" green="0.25967359293193715" blue="0.25967359293193715" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hi there" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
+                    <rect key="frame" x="20" y="183" width="441" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="7X1-eD-HaK"/>
+                        <constraint firstAttribute="height" constant="32" id="VLY-gZ-XLw"/>
+                        <constraint firstAttribute="width" constant="441" id="d33-bB-yg8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="DamascusLight" family="Damascus" pointSize="26"/>
+                    <color key="textColor" red="0.69001554319371727" green="0.69001554319371727" blue="0.69001554319371727" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="7X1-eD-HaK"/>
+                        </mask>
+                    </variation>
+                </label>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.40000000000000002" contentMode="scaleToFill" misplaced="YES" image="directorchair" translatesAutoresizingMaskIntoConstraints="NO" id="TrF-3k-HLe">
+                    <rect key="frame" x="8" y="224" width="346" height="512"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="41" id="Sqn-PX-I6Z"/>
+                        <constraint firstAttribute="height" constant="60" id="YDj-H1-zD2"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottomMargin" secondItem="qMQ-L7-EcA" secondAttribute="bottom" constant="10" id="1a3-V5-uKE"/>
+                <constraint firstAttribute="bottomMargin" secondItem="qMQ-L7-EcA" secondAttribute="bottom" constant="1" id="4VC-6R-4KF"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="bottom" multiplier="1/2.5" constant="1" id="5cJ-9S-tgC"/>
+                <constraint firstItem="qMQ-L7-EcA" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="4" id="7VM-Ei-IXa"/>
+                <constraint firstItem="qMQ-L7-EcA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="FNa-Qz-krd"/>
+                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Koa-jz-hwk"/>
+                <constraint firstItem="TrF-3k-HLe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="LmD-yK-nwB"/>
+                <constraint firstItem="TrF-3k-HLe" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="40" id="NL9-KG-4hO"/>
+                <constraint firstItem="qMQ-L7-EcA" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="8" id="P7W-gb-pr8"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="X0e-QG-dIy"/>
+                <constraint firstItem="qMQ-L7-EcA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="bUR-Io-wuZ"/>
+                <constraint firstItem="TrF-3k-HLe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="134" id="dhI-Ip-fnI"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
+                <constraint firstItem="qMQ-L7-EcA" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" id="hPM-zC-faD"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="n6J-rl-bqK"/>
+                <constraint firstItem="qMQ-L7-EcA" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="4" id="nEs-Pm-oWz"/>
+                <constraint firstItem="qMQ-L7-EcA" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="1" id="oHI-gC-TWX"/>
+                <constraint firstItem="qMQ-L7-EcA" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="2" id="w9b-HY-Edy"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Koa-jz-hwk"/>
+                    <exclude reference="X0e-QG-dIy"/>
+                    <exclude reference="1a3-V5-uKE"/>
+                    <exclude reference="4VC-6R-4KF"/>
+                    <exclude reference="7VM-Ei-IXa"/>
+                    <exclude reference="FNa-Qz-krd"/>
+                    <exclude reference="P7W-gb-pr8"/>
+                    <exclude reference="nEs-Pm-oWz"/>
+                    <exclude reference="oHI-gC-TWX"/>
+                    <exclude reference="w9b-HY-Edy"/>
+                    <exclude reference="dhI-Ip-fnI"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="directorchair" width="346" height="512"/>
+    </resources>
+</document>
